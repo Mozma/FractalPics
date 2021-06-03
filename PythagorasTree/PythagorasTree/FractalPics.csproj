@@ -98,4 +98,10 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Images\DurerStarForm.png" />
+    <Content Include="Images\MainForm.png" />
+    <Content Include="Images\PythagorasTreeForm.png" />
+  </ItemGroup>
 </Project>
