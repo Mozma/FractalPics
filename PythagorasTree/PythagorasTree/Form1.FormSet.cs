@@ -11,7 +11,7 @@ using System.Drawing;
 
 namespace FractalPics
 {
-	partial class Form1
+	partial class PythagorasTreeForm
 	{		
 		private void Form1_Load(object sender, EventArgs e){
 			backColor = Color.Black;

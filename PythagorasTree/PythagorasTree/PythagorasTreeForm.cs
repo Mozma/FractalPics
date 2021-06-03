@@ -1,22 +1,12 @@
-﻿/*
- * Created by SharpDevelop.
- * User: user
- * Date: 24.11.2019
- * Time: 17:17
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Drawing;
-using System.Drawing.Imaging;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace FractalPics
 {
-	public partial class Form1 : Form
+	public partial class PythagorasTreeForm : Form
 	{
-		public Form1()
+		public PythagorasTreeForm()
 		{
 			InitializeComponent();
 		}
@@ -24,7 +14,6 @@ namespace FractalPics
 		public Graphics g; 
 		public Bitmap bit;
 		public Pen goodPen, bestPen, simplePen,randomPen;
-		//simplePen = new Pen(Color.White);
 		
 		public double ang90 = Math.PI / 2;
 		public double ang60 = Math.PI / 3;
@@ -34,11 +23,8 @@ namespace FractalPics
 		
 		public Color backColor;
 		
-	
 		int count;
-	
-		
-		
+			
 		#region Методы построения деревьев
 		
 		public void getAngle(){
@@ -106,7 +92,7 @@ namespace FractalPics
 			
 			if(depth > 0){
 				//
-				//Left Branch
+				// Левая ветвь
 				//
 				double w1 = v_base.Length * Math.Cos(alpha);
 				
@@ -117,9 +103,9 @@ namespace FractalPics
 				PointF ll_corner1 = ll_corner + v_height;
 			
 				DrawTree(pen, depth - 1, ll_corner1, v_base1, alpha);
-			
+
 				//
-				//Right Branch
+				// Правая ветвь
 				//
 				double beta = Math.PI / 2.0 - alpha;
 				double w2 = v_base.Length * Math.Sin(alpha);

@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace FractalPics
 {
-	partial class Form1
+	partial class PythagorasTreeForm
 	{
 		void PenColorToolStripMenuItemClick(object sender, EventArgs e)
 		{

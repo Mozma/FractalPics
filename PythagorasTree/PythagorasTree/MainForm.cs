@@ -29,11 +29,11 @@ namespace FractalPics
 		void PythagorasButtonClick(object sender, EventArgs e)
 		{
 			Hide();
-			Form1 form = null;
+			PythagorasTreeForm form = null;
 			
 			if (form == null) // Если форма не существует, то создаём
 			{
-				form = new Form1(); // Создание нового экземпляра формы
+				form = new PythagorasTreeForm(); // Создание нового экземпляра формы
 				form.ShowDialog(); // Отображаем форму
 			}
 			else

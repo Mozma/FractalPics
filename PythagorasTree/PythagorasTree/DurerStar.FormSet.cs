@@ -1,13 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: user
- * Date: 29.11.2019
- * Time: 22:09
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-
-using System;
+﻿using System;
 using System.Drawing;
 
 namespace FractalPics
@@ -38,7 +29,7 @@ namespace FractalPics
 			
 		}
 		
-		void BackButtonClick(object sender, System.EventArgs e)
+		void BackButtonClick(object sender, EventArgs e)
 		{
 			Close();
 		}
@@ -58,13 +49,13 @@ namespace FractalPics
 		void DurerStarTrackBarScroll(object sender, EventArgs e)
 		{
 			SizeLabel.Text = String.Format("Size: {0}", DurerStarTrackBar.Value);
-        	DurerStarButton.PerformClick();
+			DurerStarButton.PerformClick();
 		}
 		
 		void TrackBar1Scroll(object sender, EventArgs e)
 		{
 			DepthLabel.Text = String.Format("Depth: {0}", DepthTrackBar.Value);
-        	DurerStarButton.PerformClick();
+			DurerStarButton.PerformClick();
 		}
 		
 		void CheckBox1CheckedChanged(object sender, EventArgs e)

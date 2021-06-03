@@ -1,21 +1,9 @@
-﻿/*
- * Created by SharpDevelop.
- * User: user
- * Date: 29.11.2019
- * Time: 21:41
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace FractalPics
 {
-	/// <summary>
-	/// Description of DurerStarForm.
-	/// </summary>
 	public partial class DurerStarForm : Form
 	{
 		public DurerStarForm()
@@ -23,27 +11,26 @@ namespace FractalPics
 			InitializeComponent();
 		}
 		
-		public Graphics g; 
-		public Bitmap bit;
-		public Pen goodPen, bestPen, simplePen,randomPen;
-		public SolidBrush br = new SolidBrush(Color.Black);
-			
-		public Color backColor = Color.White;
-		
-		public PointF[] pentagonPoitns;
-		public PointF[] tmpPoints = new PointF[5];
-		public PointF[] trianglePoints;
+		private Graphics g;
+		private Bitmap bit;
+		private Pen goodPen; // bestPen, simplePen,randomPen;
+		private SolidBrush br = new SolidBrush(Color.Black);
+
+		private Color backColor = Color.White;
 	
 		double pi = Math.PI;
 	
-		
+		/// <summary>
+		/// Метод, который рисует пятиугольник
+		/// </summary>
+
 		public void Draw_Pentagon(double x, double y, double r, double angle, double depth){
-			goodPen = new Pen(Color.Black, 1);
-			
+			goodPen = new Pen(Color.Black, 1);	
 	
 			g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
- 
+
 			int i;
+
 			double[] x1 = new double[5];
 			double[] y1 = new double[5];
 			PointF[] tmp = new PointF[5];
@@ -68,6 +55,10 @@ namespace FractalPics
 			}
 		}
 		
+
+		/// <summary>
+		/// Метод, который рисует звезду
+		/// </summary>
 		public  void Draw_Star(double x, double y, double r, double angle, int depth){
 			int i;
 			double h;
@@ -90,8 +81,5 @@ namespace FractalPics
 			 pictureBox1.Image = bit;
 		  
 		}
-		
-		
-	
 	}
 }
