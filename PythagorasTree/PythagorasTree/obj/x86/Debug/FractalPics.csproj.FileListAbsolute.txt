@@ -1,0 +1,10 @@
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\bin\Debug\PythagorasTree.exe
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\bin\Debug\PythagorasTree.pdb
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\obj\x86\Debug\FractalPics.csprojAssemblyReference.cache
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\obj\x86\Debug\FractalPics.csproj.GenerateResource.cache
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\obj\x86\Debug\FractalPics.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\obj\x86\Debug\PythagorasTree.exe
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\obj\x86\Debug\PythagorasTree.pdb
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\obj\x86\Debug\FractalPics.DurerStarForm.resources
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\obj\x86\Debug\FractalPics.Form1.resources
+D:\Рабочий стол\Система папок\Хобби\Программирование\С#\Проекты\PythagorasTree\PythagorasTree\PythagorasTree\obj\x86\Debug\FractalPics.MainForm.resources
